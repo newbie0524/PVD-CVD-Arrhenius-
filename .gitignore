@@ -1,0 +1,27 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ===== MATLAB =====
+*.asv
+*.m~
+*.mex*
+slprj/
+*.autosave
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
