@@ -204,6 +204,6 @@ fig.suptitle("Thin-Film Deposition Process Modeling (CVD)",
              fontsize=14, fontweight="bold")
 fig.tight_layout(rect=[0, 0, 1, 0.97])
 
-out_path = "/home/claude/cvd_deposition_analysis.png"
+out_path = "cvd_deposition_analysis.png"
 fig.savefig(out_path, bbox_inches="tight")
 print(f"\n[저장 완료] 그래프: {out_path}")
